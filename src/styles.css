@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  @keyframes slideInFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50px); /* Slide from the top */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Final position */
+    }
+  }
+  
+  
+  body {
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #0088ff);
+  }
+  
+  .calculator-grid {
+    display: grid;
+    margin-top: 1.5rem;
+    justify-content: center;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows: minmax(7rem, auto) repeat(6, 5.8rem);
+    animation: slideInFadeIn 2s ease-out;
+  }
+
+  
+  .topic {
+    font-family: 'Verdana', sans-serif;
+    display: block; /* Override display to block */
+    grid-column: span 4; /* Make the element span all columns if needed */
+    margin-left: 41px; /* Custom margin */
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: 19px;
+    color: whitesmoke;
+  }
+
+  .end_text{
+    position: fixed;
+    bottom: -5px;
+    right: 20px; 
+    margin-top: -40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+  }
+  
+  .calculator-grid > button:hover,
+  .calculator-grid > button:focus {
+    background-color: rgba(255, 255, 255, .9);
+  }
+  
+  .span-two {
+    grid-column: span 2;
+  }
+  
+  .output {
+    margin-top: -22.5px;
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: .75rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+  }
+  
+  .output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+  }
+  
+  .output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+  }
