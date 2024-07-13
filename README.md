@@ -1,7 +1,6 @@
 # Simple Calculator
 
-A simple, user-friendly calculator application built with React. This project demonstrates the use of `useReducer` for state management and component-based architecture.
-
+A simple, user-friendly calculator application built with React. It supports standard arithmetic operations such as addition, subtraction, multiplication, and division. The user interface is straightforward and user-friendly, featuring buttons for digits, operations, and controls like clear (AC), delete (DEL), and evaluate (=).
 ## Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, and division.
