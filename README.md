@@ -46,7 +46,7 @@ A simple, user-friendly calculator application built with React. This project de
 - `styles.css`: CSS styles for the calculator.
 
 ## 🛠 Skills
-React,JavaScript,CSS & HTML
+React, JavaScript, CSS & HTML
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
