@@ -1,3 +1,7 @@
+![GitHub top language](https://img.shields.io/github/languages/top/Pavith19/Simple_Calculator?style=flat)
+![GitHub last commit](https://img.shields.io/github/last-commit/Pavith19/Simple_Calculator?style=flat)
+![ViewCount](https://views.whatilearened.today/views/github/Pavith19/Simple_Calculator.svg?cache=remove)
+
 # Simple Calculator
 
 A simple, user-friendly calculator application built with React. It supports standard arithmetic operations such as addition, subtraction, multiplication, and division. The user interface is straightforward and user-friendly, featuring buttons for digits, operations, and controls like clear (AC), delete (DEL), and evaluate (=).
