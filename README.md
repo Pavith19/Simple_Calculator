@@ -5,6 +5,14 @@
 # Simple Calculator
 
 A simple, user-friendly calculator application built with React. It supports standard arithmetic operations such as addition, subtraction, multiplication, and division. The user interface is straightforward and user-friendly, featuring buttons for digits, operations, and controls like clear (AC), delete (DEL), and evaluate (=).
+
+<p align="center">
+  <a href="https://pavith19.github.io/Scientific-Calculator/">
+    <img src="https://github.com/mirokrastanov/Software-Engineering-SoftUni/blob/main/miscellaneous/try-now-btn.png?raw=true" alt="run-button" height="60px" />
+  </a>
+</p>
+<br>
+
 ## Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, and division.
