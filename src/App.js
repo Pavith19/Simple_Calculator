@@ -1,3 +1,8 @@
+/*
+Author: Pavith Bambaravanage
+URL: https://github.com/Pavith19
+*/
+
 import { useReducer } from "react"
 import DigitButton from "./DigitButton"
 import OperationButton from "./OperationButton"
