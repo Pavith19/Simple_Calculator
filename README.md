@@ -22,10 +22,11 @@ A simple, user-friendly calculator application built with React. It supports sta
 
 ## Features
 
-- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Basic arithmetic operations: addition, subtraction, multiplication and division.
 - Clear all input (AC) and delete the last digit (DEL) functions.
 - Supports decimal numbers.
 - Automatically limits the number of digits for operands and results to ensure usability.
+- Responsive Design: Optimized for both mobile and desktop devices.
 
 ## Installation
 
