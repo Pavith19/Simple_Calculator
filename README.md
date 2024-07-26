@@ -9,7 +9,7 @@ A simple, user-friendly calculator application built with React. It supports sta
 <br>
 
 <p align="center">
-  <a href="https://pavith19.github.io/Scientific-Calculator/">
+  <a href="https://pavithscal.netlify.app/">
     <img src="https://github.com/mirokrastanov/Software-Engineering-SoftUni/blob/main/miscellaneous/try-now-btn.png?raw=true" alt="run-button" height="60px" />
   </a>
 </p>
